@@ -82,23 +82,23 @@ body {
   
 }
 
-/* Cambia el estilo del menú para que se quede fijo después del scroll */
+
 nav {
-  position: fixed; /* Cambiado a fixed */
-  top: 0; /* Para que el menú quede pegado a la parte superior */
+  position: fixed; 
+  top: 0; 
   width: 100%;
   z-index: 9;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Cuando se haga scroll, el fondo se vuelve sólido y se agrega una sombra */
+
 nav.scroll {
-  background-color: var(--extra-light); /* O el color que prefieras */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega una sombra al menú */
+  background-color: var(--extra-light); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 body {
-  padding-top: 70px; /* Ajusta esto a la altura de tu menú */
+  padding-top: 70px; 
 }
 
 
